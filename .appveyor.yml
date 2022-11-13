@@ -1,8 +1,6 @@
 image: Ubuntu  //# образ для сборки
 
 stack: jdk 15  //# версия JDK
-before_install:
-  - chmod +x gradlew
 
 branches:
   only:
